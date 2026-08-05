@@ -1,0 +1,15 @@
+# Python stuff
+.vscode/
+__pycache__/
+
+# Environments
+.env
+venv/
+venv_pc/
+
+# Misc
+all_scans.csv
+false_detections - Sheet1.csv
+iuvs_ml_scan_dataset_2000_15500_ml_v1.csv
+iuvs_ml_scan_dataset.csv
+master.csv
