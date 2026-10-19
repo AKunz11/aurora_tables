@@ -5,13 +5,13 @@ import os
 # -----------------------
 # Paths
 # -----------------------
-DATA_DIR = "D:/nightglow/tables"
-LOOKUP_DIR = "D:/nightglow/class_tables"
+DATA_DIR = "E:/nightglow/tables_cnn"
+LOOKUP_DIR = "E:/nightglow/class_tables"
 
-MASTER_CSV = "D:/nightglow_tables/master.csv"
+MASTER_CSV = "E:/nightglow/master_cnn.csv"
 OVERRIDE_CSV = "D:/nightglow_tables/false_detections - Sheet1.csv"
 
-SHORT_PATTERN = os.path.join(DATA_DIR, "*short_1.csv")
+SHORT_PATTERN = os.path.join(DATA_DIR, "*short_cnn.csv")
 CLASS_PATTERN = os.path.join(LOOKUP_DIR, "aurora_* - Sheet1*.csv")
 
 ORBIT_COL = "orbit_number"
